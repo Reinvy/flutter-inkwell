@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:inkwell/views/home/home_screen.dart';
+import 'package:inkwell/views/search/search_screen.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 
 class MainNavigation extends StatelessWidget {
@@ -13,7 +14,7 @@ class MainNavigation extends StatelessWidget {
 
     List<Widget> screen = [
       const HomeScreen(),
-      const HomeScreen(),
+      const SearchScreen(),
       const HomeScreen(),
       const HomeScreen(),
     ];
