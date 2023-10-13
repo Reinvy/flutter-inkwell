@@ -22,7 +22,7 @@ class SearchScreen extends StatelessWidget {
         SliverAppBar(
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(
-              bottom: Radius.circular(12),
+              bottom: Radius.circular(8),
             ),
           ),
           title: TextFormField(
